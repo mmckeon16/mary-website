@@ -6,7 +6,7 @@ import './Appbar.css';
 
 
 function Appbar() {
-  const navItems = ['Home', 'About', 'Contact'];
+  const navItems = [{title:'Home', url:'/'}, {title:'Projects', url:'/projects'}, {title:'Contact', url:'/contact'}];
 
   return (
       <AppBar component="nav">
@@ -18,8 +18,8 @@ function Appbar() {
             Menu
           </Typography>
           <div>
-            {navItems.map((item) => (
-              <NavButton item={item} />
+            {navItems.map(({title, url}) => (
+              <NavButton title={title} url={url} />
             ))}
             </div>
           
