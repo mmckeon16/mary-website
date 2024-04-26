@@ -1,5 +1,4 @@
 
-import Paper from '@mui/material/Paper';
 import { Typography } from '@mui/material';
 
 import './Home.css';
@@ -7,23 +6,24 @@ import Appbar from '../components/Appbar';
 import hobokenImg from './hoboken-water.jpg';
 
 function Home() {
+
   return (
     <div className="homePage">
       <Appbar/>
-      <img src={hobokenImg} className="image" />
-      <Paper elevation={3} className="homeContent">
-        <Typography variant='h3' component='h1'>
-          This is a website about me, Mary.
-        </Typography>
-        <a
-          className="git-link"
-          href="https://github.com/mmckeon16"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn about me
-        </a>
-      </Paper>
+      <div className="homePageContent">
+        <img src={hobokenImg} className="image" />
+        <div className="homePageText">
+          <Typography variant='h5' component='h1' className="textContent">
+            My name is 
+          </Typography>
+          <Typography variant='h1' component='h2' className="textContent">
+            Mary McKeon
+          </Typography>
+          <Typography variant='body1' className="textContent">
+            I am a passionate full stack software engineer with a passion for customer obsession and developer experience.
+          </Typography>
+        </div>
+      </div>
     </div>
   );
 }
