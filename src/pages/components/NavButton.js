@@ -3,10 +3,8 @@ import Button from '@mui/material/Button';
 import {
   useNavigate,
 } from "react-router-dom";
-import './Appbar.css';
 
-
-function Appbar({title, url}) {
+function NavButton({title, url}) {
   const navigate = useNavigate();
 
   return (
@@ -16,4 +14,4 @@ function Appbar({title, url}) {
   );
 }
 
-export default Appbar;
+export default NavButton;

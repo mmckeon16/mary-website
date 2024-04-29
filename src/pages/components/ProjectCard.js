@@ -4,17 +4,13 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CardActions from '@mui/material/CardActions';
-import {
-  useNavigate,
-} from "react-router-dom";
 
 function ProjectCard({img, title, description, url}) {
-  const navigate = useNavigate();
 
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 140, width:345 }}
         image={img}
         title={title}
       />

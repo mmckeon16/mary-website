@@ -1,0 +1,14 @@
+.box {
+  width: 100%;
+  height: auto;
+  background-color: #9CCCED;
+}
+
+.footerGrid {
+  display: flex;
+  align-items: center;
+}
+
+.footerText {
+  padding:12px 0;
+}

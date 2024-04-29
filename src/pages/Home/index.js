@@ -2,14 +2,15 @@
 import { Typography } from '@mui/material';
 
 import './Home.css';
-import Appbar from '../components/Appbar';
+import AppbarNav from '../components/AppbarNav';
+import Footer from '../components/Footer';
 import hobokenImg from './hoboken-water.jpg';
 
 function Home() {
 
   return (
     <div className="homePage">
-      <Appbar/>
+      <AppbarNav/>
       <div className="homePageContent">
         <img src={hobokenImg} className="image" />
         <div className="homePageText">
@@ -24,6 +25,7 @@ function Home() {
           </Typography>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

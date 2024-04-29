@@ -1,0 +1,10 @@
+.nav-content {
+  z-index: unset;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  background-color:#2B4F89;
+  /* blue: #2B4F89 green: #214A38 white: #D8D8D8*/
+}

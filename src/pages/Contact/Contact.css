@@ -1,0 +1,36 @@
+.contactPage {
+  height: 100%;
+  width: 100%
+}
+.contactBody {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:100%;
+}
+
+.contactText {
+  display:flex;
+  flex-direction: column;
+  gap:25px;
+  justify-content: center;
+  text-align: left;
+  padding: 45px;
+}
+
+.contactImg {
+  width: 55vw;
+  max-width:530px;
+}
+
+.logoDiv {
+  display: flex;
+  gap:12px;
+}
+
+.logoDiv.button {
+  max-width:150px;
+  display: flex;
+  justify-content: flex-start;
+  padding:1px;
+}
