@@ -1,12 +1,15 @@
 .contactPage {
   height: 100%;
-  width: 100%
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .contactBody {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height:100%;
 }
 
 .contactText {
@@ -19,7 +22,7 @@
 }
 
 .contactImg {
-  width: 55vw;
+  width: 35vw;
   max-width:530px;
 }
 

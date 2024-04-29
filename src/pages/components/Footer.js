@@ -14,8 +14,6 @@ function Footer() {
     >
       <Container maxWidth="lg">
         <Grid container direction="column" alignItems="center">
-          <Grid item xs={12}>
-          </Grid>
           <Grid item xs={12} className="footerGrid">
             <Typography color="textSecondary" variant="subtitle1" className="footerText">
               {`${new Date().getFullYear()} | `}

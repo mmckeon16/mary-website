@@ -7,7 +7,7 @@ function AppbarNav() {
   const navItems = [{title:'Home', url:'/'}, {title:'Projects', url:'/projects'}, {title:'Contact', url:'/contact'}];
 
   return (
-      <AppBar component="nav" className="nav-content">
+      <AppBar position="static">
         <Toolbar className="nav-bar">
           <div>
             {navItems.map(({title, url}) => (
